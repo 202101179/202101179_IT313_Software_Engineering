@@ -17,7 +17,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps: 
-      - name: checkout repo
+      - name: Testing repo
         uses: actions/checkout@v3
       - name: use node.js
         uses: actions/setup-node@v3
